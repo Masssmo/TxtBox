@@ -1,50 +1,54 @@
-[gd_scene format=3]
+[gd_scene format=3 uid="uid://bl6o6o0lfu8x0"]
 
-[ext_resource type="Script" path="res://scripts/dialogue_box.gd" id="1_box"]
+[ext_resource type="Script" uid="uid://rsq0jlggovnd" path="res://scripts/dialogue_box.gd" id="1_box"]
+[ext_resource type="FontFile" uid="uid://dfhhcvfbkx2s8" path="res://Jersey10-Regular - Copy.ttf" id="2_fu8b5"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
 content_margin_left = 40.0
 content_margin_top = 32.0
 content_margin_right = 40.0
 content_margin_bottom = 32.0
-bg_color = Color(0.06, 0.06, 0.12, 0.92)
+bg_color = Color(0.874, 0.91080004, 0.92, 1)
 border_width_left = 6
 border_width_top = 6
 border_width_right = 6
 border_width_bottom = 6
-border_color = Color(1, 1, 1, 1)
-corner_radius_top_left = 20
-corner_radius_top_right = 20
-corner_radius_bottom_right = 20
-corner_radius_bottom_left = 20
+border_color = Color(0, 0.49446148, 0.99134964, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
 
-[node name="DialogueBox" type="PanelContainer"]
+[node name="DialogueBox" type="PanelContainer" unique_id=1936260126]
 custom_minimum_size = Vector2(0, 380)
 theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
 script = ExtResource("1_box")
 
-[node name="VBox" type="VBoxContainer" parent="."]
+[node name="VBox" type="VBoxContainer" parent="." unique_id=1965810502]
 layout_mode = 2
 theme_override_constants/separation = 16
 
-[node name="NameLabel" type="Label" parent="VBox"]
+[node name="NameLabel" type="Label" parent="VBox" unique_id=1039534342]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 0.84, 0.3, 1)
 theme_override_font_sizes/font_size = 46
 text = "Speaker"
 
-[node name="TextLabel" type="RichTextLabel" parent="VBox"]
+[node name="TextLabel" type="RichTextLabel" parent="VBox" unique_id=352415791]
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_font_sizes/normal_font_size = 52
-theme_override_font_sizes/bold_font_size = 52
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0.101960786, 0.101960786, 0.101960786, 0.101960786)
+theme_override_fonts/normal_font = ExtResource("2_fu8b5")
+theme_override_font_sizes/normal_font_size = 48
+theme_override_font_sizes/bold_font_size = 48
 theme_override_font_sizes/italics_font_size = 52
 bbcode_enabled = true
-text = "Dialogue text goes here."
+text = "Dialogue text goes here. 1233495809"
 scroll_active = false
 visible_characters_behavior = 1
 
-[node name="Blip" type="AudioStreamPlayer" parent="."]
+[node name="Blip" type="AudioStreamPlayer" parent="." unique_id=1165041594]
 unique_name_in_owner = true
