@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://dfhhcvfbkx2s8"
-path="res://.godot/imported/Jersey10-Regular - Copy.ttf-91748c081449b173b21ee8a9056c2404.fontdata"
+uid="uid://gmw8x2pmd140"
+path="res://.godot/imported/pokemon_fire_red.ttf-ac415c808dfae1301b4947c224003d0b.fontdata"
 
 [deps]
 
-source_file="res://Jersey10-Regular - Copy.ttf"
-dest_files=["res://.godot/imported/Jersey10-Regular - Copy.ttf-91748c081449b173b21ee8a9056c2404.fontdata"]
+source_file="res://fonts/pokemon_fire_red.ttf"
+dest_files=["res://.godot/imported/pokemon_fire_red.ttf-ac415c808dfae1301b4947c224003d0b.fontdata"]
 
 [params]
 

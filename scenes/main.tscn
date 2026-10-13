@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://b5wi4hutthw0r"]
 
 [ext_resource type="Script" uid="uid://dy1x5k557yqm8" path="res://scripts/main.gd" id="1_main"]
-[ext_resource type="PackedScene" uid="uid://bl6o6o0lfu8x0" path="res://scenes/dialogue_box.tscn" id="2_box"]
 
 [node name="Main" type="Control" unique_id=1316170176]
 layout_mode = 3
@@ -19,18 +18,4 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.5796477, 0.617595, 0.6234331, 1)
-
-[node name="DialogueBox" parent="." unique_id=359761642 instance=ExtResource("2_box")]
-unique_name_in_owner = true
-layout_mode = 1
-anchors_preset = 12
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 40.0
-offset_top = -1210.0
-offset_right = -40.0
-offset_bottom = -710.0
-grow_horizontal = 2
-grow_vertical = 0
+color = Color(0.58, 0.58, 0.58, 1)
