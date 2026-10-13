@@ -1,0 +1,11 @@
+# Example dialogue script. See scripts/dialogue_parser.gd for the format.
+Alice: Hey! Did you hear about the new [color=yellow]text visualizer[/color]?
+Bob: No... what does it do?
+@wait 0.5
+Alice: You write a script, and it plays it back like a videogame dialogue box.
+@speed 15
+Bob: That... sounds... [b]amazing[/b].
+@speed 40
+@clear
+@wait 1
+The end.
