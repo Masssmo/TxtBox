@@ -23,10 +23,10 @@ func _ready() -> void:
 	clear()
 
 
-func show_line(speaker: String, bbcode_text: String) -> void:
+func show_line(bbcode_text: String) -> void:
 	show()
-	_name_label.text = speaker
-	_name_label.visible = not speaker.is_empty()
+	#_name_label.text = speaker
+	#_name_label.visible = not speaker.is_empty()
 	_text_label.text = bbcode_text
 	_text_label.visible_characters = 0
 	# visible_characters counts characters without BBCode tags, so index into the parsed text.

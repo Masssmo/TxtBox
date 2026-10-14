@@ -25,7 +25,7 @@ func _play(commands: Array[Dictionary]) -> void:
 	for command in commands:
 		match command.type:
 			"line":
-				_box.show_line(command.speaker, command.text)
+				_box.show_line(command.text)
 				await _box.line_finished
 				await get_tree().create_timer(hold_after_line).timeout
 			"wait":

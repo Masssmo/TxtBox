@@ -1,9 +1,9 @@
 # Example dialogue script. See scripts/dialogue_parser.gd for the format.
 @wait 0.5
-You write a script, and it plays it back like a videogame dialogue box.
+The quick brown fox jumps over the lazy dog
 @speed 15
-That... sounds... [b]amazing.[/b]
+The quick brown fox jumps over the [b]lazy[/b] dog
 @speed 40
 @clear
 @wait 1
-The end.
+cacapoto cacapoto cacapoto cacapoto cacapoto [b]cacapoto[/b]
